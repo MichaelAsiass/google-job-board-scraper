@@ -22,10 +22,9 @@ text = get_span(soup, class_name)
 word_count = Counter(text.split())
 
 # Define the search words and find the counts of each one in the text
-search_words = {"Excel", "UX", "Python", "JavaScript", 'SQL', "Java",
-                "UI", "Rust", "React", "React Native", "MongoDB", "Express", "Node", "PostGreSQL", "Vue", "Tailwind", "SAAS", "Flask", "Django", "ExpressJS", "Swift", "C#", "C", "C++", "HTML", "CSS"}
+search_words = {"Excel", "UX", "Python", "JavaScript", 'SQL', "Java", "XML", "AWS", "NoSQL", "TypeScript" , "JQuery", "React.js", "Bootstrap"
+                "UI", "Rust", "React", "React Native", "MongoDB", "Express", "NodeJS", "PostGreSQL", "Vue", "Tailwind", "SAAS", "Flask", "Django", "ExpressJS", "Swift", "C#", "C", "C++", "HTML", "CSS", "REST", "API", "JSON", ""}
 results = {word: word_count[word] for word in search_words if word in word_count}
-print (results)
 
 # Create a bar chart of the results
 # plt.bar(range(len(results)), list(results.values()), align='center')

@@ -24,8 +24,8 @@ text = get_span(soup, class_name)
 words = text.split()
 word_count = Counter(words)
 
-search_words = {"Excel", "UX", "Python", "JavaScript", 'SQL', "Java",
-                "UI", "Rust", "React", "React Native", "MongoDB", "Express", "Node", "PostGreSQL", "Vue", "Tailwind", "SAAS", "Flask", "Django", "ExpressJS", "Swift", "C#", "C", "C++", "HTML", "CSS"}
+search_words = {"Excel", "UX", "Python", "JavaScript", 'SQL', "Java","Angular",
+                "UI", "Rust", "React", "React Native", "MongoDB", "Express", "Node", "PostGreSQL", "Vue", "Tailwind", "SAAS", "Flask", "Django", "ExpressJS", "Swift", "C#", "C", "C++", "HTML", "CSS", ".Net", "XML", "Jenkins", "Kafka", "Redis", "Ruby", "Git", "Microsoft Azure", "Amazon Web Services", "Google Cloud Platform", "Dockers", "Linux", "Kubernetes", "Ubuntu"}
 
 results = {}
 
